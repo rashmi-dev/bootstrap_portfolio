@@ -1,0 +1,118 @@
+html,
+body{
+    height:100%;
+}
+
+body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+    color:#000;
+}
+
+h1,h2,h3,h4,h5{
+    color:#eee;
+}
+h6{
+   
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:0.8rem;
+    letter-spacing: 0.1rem;
+}
+img{
+    max-width: 100%;
+}
+.blockquote{
+    font-size:1.6rem;
+    color:#000;
+    border: none;
+    padding:0;
+}
+
+.blockquote-footer{
+    margin:1rem 0 0;
+}
+
+#stage{
+    background: url("../img/computer_cover.jpg") center center no-repeat;
+    background-size:cover;
+    color:#fff;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+#stage-caption{
+    max-width:60rem;
+    font-weight:200;
+    font-size:1.4rem;
+    margin:0 auto;
+    text-align: center;
+    
+}
+#feature-four .feature-content div{
+    padding:2rem;
+   
+}
+#stage-caption h1{
+    
+    color:#fff;
+    font-weight:bold!important;
+    text-transform: uppercase;
+}
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    /*margin-bottom: -8rem;*/
+    padding: 0.1rem 0;
+    overflow: hidden;
+}
+
+.feature-dark{
+    background:#262F36;
+    color:#fff;
+}
+
+#feature-one h2,#feature-three h2,#feature-four h2,#feature-five h2,#feature-seven h2{
+    color:#000;
+}
+
+.feature-alt{
+    background:#f0f0f0;
+}
+
+#feature-four .feature-content{
+    padding-top:0;
+    padding:0 0.8rem;
+}
+.nav-link,.navbar-brand{
+    font-weight:bold;
+}
+#main-footer{
+    background:#262f36;
+    font-size:0.8rem;
+    color:#fff;
+    padding:6rem 0;
+}
+#main-footer h6{
+    color:#718FA9;
+}
+#main-footer a{
+    color:#fff;
+}
+
+/* Media Queries */
+
+@media screen and ( min-width : 991px ) {
+    
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+}
